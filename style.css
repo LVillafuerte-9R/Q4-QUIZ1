@@ -1,0 +1,122 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/91/4c/b1/914cb14ffb3565016c174878f926fddc.gif);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fake-browser {
+  width: 350px;
+  height: 590px;
+  background-color: #8967B3;
+  border: 4px solid #180161;
+  box-shadow: 6px 6px 0 #180161;
+  font-family: 'Press Start 2P', monospace;
+  image-rendering: pixelated;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* no scrolling! */
+}
+
+.browser-header {
+ background-color: #E4B1F0;
+ padding: 5px;
+ display: flex;
+ align-items: center;
+ gap: 6px;
+ border-bottom: 2px solid #000;
+}
+
+.dot {
+ width: 12px;
+ height: 12px;
+ display: inline-block;
+ border: 2px solid #000;
+}
+
+.red { 
+  background-color: #33186B; 
+}
+
+.yellow { 
+  background-color: #624E88; 
+}
+    
+.green { 
+ background-color: #FED9ED; 
+}
+
+.address-bar {
+ flex-grow: 1;
+ height: 16px;
+ background-color: white;
+ border: 2px solid #000;
+}
+
+.browser-body {
+  padding: 10px;
+  color: #FFD1E3;
+  font-size: 20px;
+  line-height: 1.5;
+  flex: 1;
+  overflow-y: hidden; /* no scroll */
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 6px 10px; /* larger button */
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #000;
+  font-size: 15px; 
+  text-decoration: none;
+  color: #180161;
+}
+
+.btn:hover {
+  background-color: #180161;
+}
+
+details summary {
+ font-size: 20px;
+ cursor: pointer;
+}
+
+details p {
+ font-size: 15px;
+ margin-top: 5px;
+}
+
+.bmi-title {
+  font-size: 18x;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.bottom-image {
+ display: block;
+ width: 100%;
+ height: 200px;
+ object-fit: cover;
+ margin-top: 10px;
+ border-top: 2px solid #000;
+}
+
+footer a {
+  color: #FFDFEF;
+}
+
+.page-wrapper {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
